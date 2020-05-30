@@ -1,0 +1,1 @@
+This project copy http://www.nicdarkthemes.com/themes/hotel/wp/demo/hotel/# theme.

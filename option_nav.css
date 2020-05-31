@@ -1,0 +1,59 @@
+.option-nav {
+	background-color: #222;
+
+	position: relative;
+}
+
+
+.option-nav a {
+	display: block;
+}
+
+.image-hotel-booking {
+	width: 170px;
+}
+
+.icon-menu {
+	width: 25px;
+	height: 25px;
+}
+.icon-close {
+	width: 25px;
+	height: 25px;
+}
+
+.option-menu-bar {
+	width: max-content;
+	height: max-content;
+	background-color: #111;
+	font-family: Gilda Display !important;
+	padding: 20px 30px 40px 30px;
+
+	position: absolute;
+	right: -300px;
+	top: 0px;
+
+	transition: all 1s;
+}
+
+.show-menu-bar {
+	right: 0px;
+}
+
+.option-box {
+	padding-right: 96px;
+	margin-bottom: 40px;
+}
+
+.option-list a {
+	margin-bottom: 20px;
+}
+
+.pl-20px {
+	padding-left: 20px;
+
+}
+
+
+
+

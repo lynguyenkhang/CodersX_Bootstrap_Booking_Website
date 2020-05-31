@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./navigation.css">
+    <link rel="stylesheet" type="text/css" href="option_nav.css">
 
 
 
@@ -137,12 +138,123 @@
 
     </div>
 
+<!-- option-nav 0 -> 1200px -->
+  <div class="option-nav container-fluid text-center d-xl-none">
+    <a href="#no" class="pt-4">
+        <img src="./image/image_hotel_booking.png" class="image-hotel-booking">
+    </a>
+
+    <div class='option-menu mt-3 pb-4'>
+
+
+      <div onclick="showMenuBar()">
+        <a href="#no">
+          <img src="./image/icon_menu.svg" class="icon-menu">
+        </a>
+      </div>
+
+
+
+      <div class="option-menu-bar col" id="menu_bar">
+
+          <div onclick="hideMenuBar()" style="height:25px">
+            <a href="#no" class="close pt-1">
+              <img src="./image/icon_close_white.svg" class="icon-close">
+            </a>
+          </div>
+
+
+
+          <div class="option-box text-left">
+            <a href="#no" class="h4 font-weight-light text-light mb-3">Home</a>
+
+            <ul class="option-list pl-3">
+              <a href="#no" class="h6 font-weight-light text-light text-left">Home 1</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Home 2</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Home 3</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Home 4</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Home 5</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Home 6</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Home 7</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Multilingual</a>
+            </ul>
+          </div>
+
+          <div class="option-box text-left">
+            <a href="#no" class="h4 font-weight-light text-light mb-3">Rooms</a>
+
+            <ul class="option-list pl-3">
+              <a href="#no" class="h6 font-weight-light text-light text-left">Room gallery</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Room video</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Room default</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Single branch</a>
+            </ul>
+          </div>
+
+          <div class="option-box text-left">
+            <a href="#no" class="h4 font-weight-light text-light mb-3">Abous us</a>
+          </div>
+
+
+          <div class="option-box text-left">
+            <a href="#no" class="h4 font-weight-light text-light mb-3">Pages</a>
+
+            <ul class="option-list pl-3">
+              <a href="#no" class="h6 font-weight-light text-light text-left">Around us</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Terms & Conditions</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Contact</a>
+                <a href="#no" class="pl-20px h6 font-weight-light text-light text-left">Contact 1</a>
+                <a href="#no" class="pl-20px h6 font-weight-light text-light text-left">Contact 2</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Coming soon</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Restaurant</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">About us</a>
+                <a href="#no" class="pl-20px h6 font-weight-light text-light text-left">About us 1</a>
+                <a href="#no" class="pl-20px h6 font-weight-light text-light text-left">About us 2</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Promotions</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Testimonials</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Gallery</a>
+          </div>
+
+          <div class="option-box text-left">
+            <a href="#no" class="h4 font-weight-light text-light mb-3">News</a>
+
+            <ul class="option-list pl-3">
+              <a href="#no" class="h6 font-weight-light text-light text-left">Archieve</a>
+                <a href="#no" class="pl-20px h6 font-weight-light text-light text-left">Full width</a>
+                <a href="#no" class="pl-20px h6 font-weight-light text-light text-left">Right sidebar</a>
+                <a href="#no" class="pl-20px h6 font-weight-light text-light text-left">Left sidebar</a>
+
+              <a href="#no" class="h6 font-weight-light text-light text-left">Single post</a>
+                <a href="#no" class="pl-20px h6 font-weight-light text-light text-left">Full width</a>
+                <a href="#no" class="pl-20px h6 font-weight-light text-light text-left">Right sidebar</a>
+                <a href="#no" class="pl-20px h6 font-weight-light text-light text-left">Left sidebar</a>
+          </div>
+
+
+          <div class="option-box text-left">
+            <a href="#no" class="h4 font-weight-light text-light mb-3">Contact</a>
+
+            <ul class="option-list pl-3">
+              <a href="#no" class="h6 font-weight-light text-light text-left">Contact 1</a>
+              <a href="#no" class="h6 font-weight-light text-light text-left">Contact 2</a>
+            </ul>
+          </div>
+
+          <div class="option-box text-left">
+            <a href="#no" class="h4 font-weight-light text-light mb-3">Book now</a>
+          </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+<script src="./option_nav.js"></script>   
 
 
 
 
-
-
-    
   </body>
 </html>

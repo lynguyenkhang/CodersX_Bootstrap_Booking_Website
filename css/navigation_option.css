@@ -1,0 +1,207 @@
+
+
+
+
+
+
+.navigation-option {
+	background-color: #222;
+	height: 77px
+}
+
+.menu {
+	list-style-type: none;
+}
+
+.menu-item {
+	font-weight: 300 !important;
+	font-size: 15px;
+	margin: 0px 25px;
+}
+
+.menu-item a {
+	color: rgba(255,255,255,0.5);
+}
+
+
+
+.menu-item-1 {
+	margin-left: 0px !important;
+}
+
+
+.menu-item-active {
+	border-bottom: 2px solid #878787;
+}
+
+.menu-item-active a {
+	color: rgba(255,255,255) !important;
+}
+
+.btn-book {
+	color: #1c1c1c !important;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    font-weight: bold;
+    padding: 1px 15px 0px 15px;
+    letter-spacing: 2px;
+    border-bottom-width: 0px !important;
+}
+
+.hidden-menu {
+	list-style-type: none;
+	width: max-content;
+	height: max-content;
+	position: absolute;
+	display: none;
+
+}
+
+.hidden-menu-home {
+	top: 23px;
+	left: 423px;
+}
+
+.hidden-menu-rooms {
+	top: 23px;
+	left: 513px;
+}
+
+.hidden-menu-pages {
+    top: 23px;
+    left: 719px;
+}
+
+.hidden-menu-contact {
+	top: 171px;
+    left: 185px;
+}
+
+.hidden-menu-about {
+	top: 315px;
+    left: 185px;
+}
+
+.hidden-menu-news {
+    bottom: -122px;
+    left: 814px;
+}
+
+.hidden-menu-archieve {
+	top: 28px;
+    left: 185px;
+}
+
+.hidden-menu-single-post {
+	top: 78px;
+    left: 185px;
+}
+
+.hidden-menu-main-contact {
+	top: 23px;
+    left: 900px;
+}
+
+.hidden-menu a {
+	font-size: 14px;
+	color: #343a40 !important;
+	font-weight: 300 !important;
+	border: 0px;
+	padding: 15px 20px;
+	box-shadow: 0px 5px 10px #f1f1f1;
+	width: 190px;
+
+}
+
+.menu-item-1:hover .hidden-menu-home {
+/*	We add padding-top so that
+the distance from C to D isn't interupted*/
+	padding-top: 28px;
+	display: inline-block;
+	z-index: 999;
+}
+
+.menu-item-2:hover .hidden-menu-rooms {
+	padding-top: 28px;
+	display: inline-block;
+	z-index: 999;
+}
+
+.menu-item-4:hover .hidden-menu-pages {
+	padding-top: 28px;
+	display: inline-block;
+	z-index: 999;
+}
+
+.menu-item-5:hover .hidden-menu-news {
+	padding-top: 28px;
+	display: inline-block;
+	z-index: 999;
+}
+
+.menu-item-6:hover .hidden-menu-main-contact {
+	padding-top: 28px;
+	display: inline-block;
+	z-index: 999;
+}
+
+
+
+
+.page-link-contact:hover .hidden-menu-contact {
+	padding-left: 25px;
+	display: inline-block;
+	z-index: 999;
+}
+
+.page-link-about:hover .hidden-menu-about {
+	padding-left: 28px;
+	display: inline-block;
+	z-index: 999;
+}
+
+.page-link-archieve:hover .hidden-menu-archieve {
+	padding-left: 28px;
+	display: inline-block;
+	z-index: 999;
+}
+
+.page-link-single-post:hover .hidden-menu-single-post {
+	padding-left: 28px;
+	display: inline-block;
+	z-index: 999;
+}
+
+
+
+
+.new-badge::after {
+	content: 'NEW';
+	float: right;
+	background-color: #c19b76;
+	font-size: 10px;
+	padding: 3px 5px;
+	color: #fff;
+}
+
+.demo-badge::after {
+	content: 'DEMO';
+	float: right;
+	background-color: #c19b76;
+	font-size: 10px;
+	padding: 3px 5px;
+	color: #fff;
+}
+
+.add-right-arrow::after {
+    content: "";
+    float: right;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-color: transparent transparent transparent #1c1c1d;
+    margin-top: 3px;
+}
+
+
+
+

@@ -8,7 +8,7 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background-color: blue;
+	background-color: #;
 }
 
 a:hover, a {
@@ -29,8 +29,8 @@ a:hover, a {
 .icon-sm-notification {
 	font-size: 7px !important;
 	position: absolute;
-	top: 11px;
-	right: 11px;
+	top: 0px;
+    right: -4px;
 }
 
 .position-relative {

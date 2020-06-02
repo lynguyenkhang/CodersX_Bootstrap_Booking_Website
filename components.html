@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="./css/navigation.css">
     <link rel="stylesheet" type="text/css" href="./css/option_nav.css">
     <link rel="stylesheet" type="text/css" href="./css/navigation_option.css">
+    <link rel="stylesheet" type="text/css" href="./css/main_slide.css">
 
 
 
@@ -370,24 +371,44 @@
           </li>
         </ul>
 
-<!--         <ul class="sub-menu-nav sub-menu-nav-home pl-0">
-            <a class="page-link border-bottom" href="#">Home 1</a>
-            <a class="page-link border-bottom" href="#">Home 2</a>
-            <a class="page-link border-bottom" href="#">Home 3</a>
-            <a class="page-link border-bottom" href="#">Home 4</a>
-            <a class="page-link border-bottom" href="#">Home 5</a>
-            <a class="page-link border-bottom" href="#">Home 6</a>
-            <a class="new-badge page-link border-bottom" href="#">Home 7</a>
-            <a class="demo-badge  page-link border-bottom" href="#">Multilingual</a>
-        </ul> -->
-
-
-
       </div>
     </div>
 
+<!-- main silde -->
+<div class="main-slide container-fluid p-0 position-relative">
+  <img src="./image/image_parallax_4.jpg" class="main-picture show" id="parallax4">
+  <img src="./image/image_parallax_5.jpg" class="main-picture" id="parallax5">
+  <div class="bg-overlay"></div>
+
+  <p class="small-title" id="small_title">luxury hotel & best resort</p>
+  <div class="small-underline" id="small_underline"></div>
+  <p class="big-title" id="big_title">enjoy a luxury experience</p>
+  <a href="#no" class="suites-box" id="suites_box">room e suites</a>
+
+  <div class="btn-change-picture d-flex">
+    <div class="parallax-4 mr-4" onmouseover="parallax4();"></div>
+    <div class="parallax-5" onmouseover="parallax5();"></div>
+  </div>
+
+</div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ----------------------------------------------------------------------------->
 <!-- option-nav 0 -> 1200px -->
 <script src="./js/option_nav.js"></script>
 
@@ -403,6 +424,10 @@ function hideSubMenuNav(option) {
   document.getElementById(option).classList.remove('show');
 }
 
+</script>
+
+<!-- main silde -->
+<script src="./js/main_slide.js">
 </script>
 
 

@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="./css/option_nav.css">
     <link rel="stylesheet" type="text/css" href="./css/navigation_option.css">
     <link rel="stylesheet" type="text/css" href="./css/main_slide.css">
+    <link rel="stylesheet" type="text/css" href="./css/booking_section.css">
 
     <title>Copy A Booking Theme</title>
   </head>
@@ -385,7 +386,80 @@
 
     </div>
 
+<!-- booking section -->
+
+    <div class="booking-section container position-relative d-flex">
+      <div class="booking-info-box d-md-flex">
+
+        <div class="check-box">
+          <a href="#no" class="font-13px text-black-50">CHECK-IN</a>
+          <div class="check-display d-flex">
+
+              <div class="check-change-btn">
+                  <img src="./image/icon_down.svg" class="square-12px icon-up" onclick="increaseDate('check-in-date','check-in-month')">
+                  <div style="height:10px;"></div>
+                  <img src="./image/icon_down.svg" class="square-12px" onclick="decreaseDate('check-in-date','check-in-month')">
+              </div>
+
+              <span class="check-date mr-2 p-0" id="check-in-date">02</span>
+
+              <div class="check-month-box">
+                <img src="./image/icon_down.svg" class="square-12px icon-up" onclick="increaseMonth('check-in-date','check-in-month');">
+                <div style="height:2px;"></div>
+
+                <p class="check-month" id="check-in-month">Jun</p>
+              </div>      
+
+          </div>
+        </div>
+        <div class="check-box">
+          <a href="#no" class="font-13px text-black-50">CHECK-OUT</a>
+          <div class="check-display d-flex">
+
+              <div class="check-change-btn">
+                  <img src="./image/icon_down.svg" class="square-12px icon-up" onclick="increaseDate('check-out-date','check-out-month')">
+                  <div style="height:10px;"></div>
+                  <img src="./image/icon_down.svg" class="square-12px" onclick="decreaseDate('check-out-date','check-out-month')">
+              </div>
+
+              <span class="check-date mr-2 p-0" id="check-out-date">03</span>
+
+              <div class="check-month-box">
+                <img src="./image/icon_down.svg" class="square-12px icon-up" onclick="increaseMonth('check-out-date','check-out-month');">
+                <div style="height:2px;"></div>
+                <p class="check-month" id="check-out-month">Jun</p>
+                
+              </div>      
+
+          </div>
+        </div>
+        <div class="check-box">
+          <a href="#no" class="font-13px text-black-50">GUESTS</a>
+          <div class="check-display d-flex">
+
+              <span class="check-date mr-3 p-0" id="number_guests">1</span>   
+
+              <div class="check-change-btn">
+                  <img src="./image/icon_down.svg" class="square-12px icon-up" onclick="increaseGuest()">
+                  <div style="height:10px;"></div>
+                  <img src="./image/icon_down.svg" class="square-12px" onclick="decreaseGuest()">
+              </div>
+          </div>
+        </div>
+
+        <div class="check-ava-box">
+          <a href="#no" class="text-light" onclick="checkAvai();">
+            <p class="check-ava-content">CHECK AVAILABILITY</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
   
+
+
+
+
   </body>
 
 <!-- option-nav 0 -> 1200px -->
@@ -395,6 +469,8 @@
 <script src="./js/main_slide.js">
 </script>
 
+<!-- booking-section -->
+<script src="./js/booking_section.js"></script>
 
 
 

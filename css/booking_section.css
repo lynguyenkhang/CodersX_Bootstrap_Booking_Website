@@ -1,0 +1,125 @@
+.booking-section {
+	margin-top: 30px;
+	font-family: "Gilda Display","san-serif";
+	justify-content: center
+
+}
+
+.booking-info-box {
+	padding: 30px;
+	background-color: #fff;
+}
+
+
+
+.check-box {
+	margin-bottom: 10px;
+	width: 100%;
+	height: max-content;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.font-13px {
+	font-size: 13px;
+}
+
+
+
+.check-date {
+	font-size: 48px;
+	font-weight: 500;
+	color: rgb(28,28,29);
+}
+
+.check-month-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.check-month {
+	margin: 0px 0px 3px 0px;
+	font-weight: 100 !important;
+	font-size: 0.84rem;
+}
+
+.square-12px {
+	height: 12px;
+	width: 12px;
+}
+
+.icon-up {
+	transform: rotate(180deg);
+}
+
+.check-change-btn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 10px;
+}
+
+
+.check-ava-box {
+	background-color: #1C1C1C;
+	color: #fff;
+	height: 120px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.check-ava-content {
+	font-size: 12px;
+	margin: 0px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+
+
+@media (min-width: 770px) {
+	.booking-info-box {
+	    align-items: center;
+	    padding: 0px;
+	}
+
+	.check-box {
+		width: 172px;
+		height: 77px;
+		border-right: 1px solid rgba(0,0,0,0.1);
+
+	}
+
+	.check-ava-box {
+		height: 138px;
+		width: 193px;
+		display: flex;
+		margin: 0px;
+	}
+
+	.check-ava-content {
+		text-align: center;
+		width: 115px;
+	}
+}
+
+@media (min-width: 1040px) {
+	.booking-info-box {
+	    position: absolute;
+	    top: -270px;
+	}
+}
+
+
+
+
+
+

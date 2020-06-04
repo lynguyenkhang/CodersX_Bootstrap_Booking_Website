@@ -35,10 +35,19 @@
 
 	transition: all 0.75s;
 	z-index: 99;
+
+	display: none;
+	
+
+
 }
 
 .show-menu-bar {
-	right: 0px;
+	display: inline-block;
+}
+
+.move-menu-bar {
+	right: -4px;
 }
 
 .option-box {

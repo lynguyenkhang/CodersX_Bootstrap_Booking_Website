@@ -1,0 +1,91 @@
+.intro-resort {
+
+	font-family: "Gilda Display", sans-serif;
+	margin-top: 40px;
+}
+
+.intro-resort-content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-resort-title {
+	font-size: 8vw;
+	line-height: 8vw;
+	font-weight: 300;
+	padding-top: 8px;
+	font-family: "Gilda Display", serif;
+	text-align: center;
+
+}
+
+.intro-resort-content {
+	font-size: 14px;
+	font-weight: 100;
+	color: rgb(135,135,136);
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+
+.intro-resort-content {
+	padding: 23px 90px 40px 90px;
+}
+
+
+
+.button-about-us {
+
+    width: 140px;
+    height: 41px;
+    background-color: rgb(193, 155, 118);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px !important;
+}
+
+.button-about-us a {
+    color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+
+
+
+
+
+.hotel-bayview {
+	color: #878787;
+	font-size: 14px;
+}
+
+.image-resort {
+	width: 100%;
+
+}
+
+
+@media (min-width: 1040px) {
+	.intro-resort {
+		display: flex;
+
+	}
+
+	.intro-resort-title {
+		font-size: 80px;
+		line-height: 80px;
+	}
+
+	.intro-resort-content-box, .intro-resort-image {
+		width: 50%;
+
+	}
+
+
+
+}

@@ -8,6 +8,7 @@
 .booking-info-box {
 	padding: 30px;
 	background-color: #fff;
+	width: 100%;
 }
 
 
@@ -115,6 +116,7 @@
 	.booking-info-box {
 	    position: absolute;
 	    top: -270px;
+	    width: max-content;
 	}
 }
 
